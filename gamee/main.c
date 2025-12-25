@@ -27,7 +27,7 @@ int random()
     return (v < 2) ? 2 : v;
 }
 
-int main(void)
+int main()
 {
     srand((unsigned)time(0));
 
